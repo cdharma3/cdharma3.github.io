@@ -1,1 +1,7 @@
-/* Initial commit for style.css */
+/* Begin css file */
+
+body {
+    /* Default font for body, should be overwritten */
+    font-family: verdana, Cambria, Times, 'Times New Roman', serif;
+}
+
