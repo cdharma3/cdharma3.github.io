@@ -1,0 +1,5 @@
+/* Contains stylings specific to resume page, should override main stylesheet */
+
+body {
+    padding: 15px;
+}

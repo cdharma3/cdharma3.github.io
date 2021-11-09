@@ -1,7 +1,51 @@
 /* Begin css file */
 
 body {
-    /* Default font for body, should be overwritten */
+    /* Default values for body, should be overwritten */
     font-family: verdana, Cambria, Times, 'Times New Roman', serif;
 }
 
+h1 {
+    font-size: 35px;
+}
+
+header {
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+}
+
+#navbar > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#navbar > ul > li {
+    float: left;
+}
+
+#navbar > ul > li > a{
+    border-radius: 25px;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: gray;
+    color: white;
+}
+
+.active {
+    background-color: darkgray;
+    color: white;
+}
+
+#contact {
+    text-align: center;
+}

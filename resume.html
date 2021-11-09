@@ -9,6 +9,9 @@
 
         <!-- Imports -->
         <link rel="stylesheet" href="css/style.css">
+        <!-- Resume specific stylesheet -->
+        <link rel="stylesheet" href="css/resume.css">
+
         <!-- Google material icons -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
@@ -16,30 +19,29 @@
     </head>
 
     <body>
-        <nav id="navbar">
-            <ul>
-                <a href="index.html">Home!</a>
-                <a href="content/Resume 2021-2022 v3.pdf" target="_blank">Resume Download!</a>
-            </ul>
-            <!-- Insert navigational links here -->
-        </nav>
-
-        <div id="wrapper">
-            <section id="contact_header">
+        <header>
+            <nav id="navbar">
                 <h1>Christopher Dharma</h1>
+                
+                <p id="contact_info">Huntley, IL 60142 &#9679; (815) 354-7549 &#9679; cdharma@hawk.iit.edu</p>
 
-                <p id="contact_info">Huntley, IL 60142 &#9679; (815) 354-7549 &#9679; cdharma@hawk.iit.edu &#9679; linkedin.com/in/christopher-dharma</p>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html" class="active">Resume</a></li>
+                    <li><a href="content/Resume 2021-2022 v3.pdf" target=_blank>Resume Download</a></li>
+                </ul>
+                <!-- Insert navigational links here -->
+            </nav>
+        </header>
 
-            </section>
-
-            <hr class="line_break">
-
+        <div id="resume">
             <section id="education">
                 <h2 class="section_title">Education</h2>
 
                 <section id="iit">
-                    <p class="date">Sept 2018 - Present</p>
+                    
                     <h3 class="company">Illinois Institute of Technology</h3>
+                    <p class="date">Sept 2018 - Present</p>
                     <p>
                         Bachelor of Science in Computer Science &
                         Master of Science in Computer Science, expected May 2022
@@ -56,8 +58,9 @@
                 <h2 class="section_title">Experience</h2>
 
                 <section id="teradyne">
-                    <p class="date">June 2020 - Present</p>
+                    
                     <h3 class="company">Teradyne Inc.</h3>
+                    <p class="date">June 2020 - Present</p>
                     <p class="title">Software Engineering Intern</p>
                     <ul>
                         <li>Identified memory leak issues in large C++ and C# based application, reducing memory overhead by ~150MB</li>
@@ -69,8 +72,8 @@
                 </section>
 
                 <section id="lab_assistant">
-                    <p class="date">June 2019 - Present</p>
                     <h3 class="company">Illinois Institute of Technology</h3>
+                    <p class="date">June 2019 - Present</p>
                     <p class="title">Lab Assistant for the College of Computing</p>
                     <ul>
                         <li>Tutored students on Python, C, MIPS assembly, Java and managing Git repositories</li>
@@ -86,8 +89,8 @@
                 <h2 class="section_title">Leadership Experience</h2>
 
                 <section id="gdsc">
-                    <p class="date">Sep 2019 - May 2022</p>
                     <h3 class="company">Google Developer Student Clubs @ the Illinois Institute of Technology</h3>
+                    <p class="date">Sep 2019 - May 2022</p>
                     <p class="title">President (2021-2022) & Treasurer (2019-2021)</p>
                     <ul>
                         <li>Managed organization of over 60 students</li>
@@ -102,8 +105,8 @@
                 <h2 class="section_title">Project</h2>
 
                 <section id="timings_comparison">
-                    <p class="date">Summer 2021</p>
                     <h3 class="company">Timings Comparison Application</h3>
+                    <p class="date">Summer 2021</p>
                     <ul>
                         <li>Designed C# based GUI application to compare custom test application log files, reducing the overall time taken for timings regression tests by about an hour</li>
                         <li>Worked in a group of three software engineering interns in an Agile based project, holding standup meetings and performing over 20 code reviews on a multitude of code changes</li>
@@ -112,8 +115,8 @@
                 </section>
 
                 <section id="easy_shot">
-                    <p class="date">Oct 2019</p>
                     <h3 class="company">Easy Shot</h3>
+                    <p class="date">Oct 2019</p>
                     <p class="title">Winner of Demonhacks 2019 & JPMorgan Chase’s Hack for Good Competition</p>
                     <a href="https://github.com/awaris123/demonhacks-2019">Link!</a>
                     <ul>
@@ -137,11 +140,10 @@
                     </ul>
                 </section>
             </section>
+
             <section id="contact">
-                <ul>
-                    <p>Connect with me on <a href="https://www.linkedin.com/in/christopher-dharma/" target="_blank">LinkedIn</a>
-                    or <a href="mailto:cdharma@hawk.iit.edu">email me</a>!</p>
-                </ul>
+                <p>Connect with me on <a href="https://www.linkedin.com/in/christopher-dharma/" target="_blank">LinkedIn</a>
+                or <a href="mailto:cdharma@hawk.iit.edu">email me</a>!</p>
             </section>
         </div>
     </body>
