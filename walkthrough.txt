@@ -1,5 +1,20 @@
 I broke up my walkthrough into a few bulleted points organized into the pages that I have for the website:
 
+- Navigation Bar
+	- My navigation bar has four links in total, one of which is to download my resume
+	- The project link is a dropdown that contains links to their respective elements in my project tab
+		- If you're already on the project tab it'll scroll you down to said element
+		
 - Home Page
 	- My home page has a picture of me along with a small introduction and link to my other materials
 	- I really wanted to finish up my hobbies sections with a few pictures and other materials, but I wanted to get express permission from the people in the photo to use it for a public site and I wasn't able to get that from them quickly enough
+	
+- Resume Page
+	- My resume is mostly a copy of my pdf resume but stylized in HTML
+	- The only notable difference is the link to one of the projects listed in my resume, which is now an 'a' tag
+
+- Projects Page
+	- I added another project that I wanted to show off in my resume but I wasn't really able to
+	- There are a couple more projects that I was going to add into the page, but I felt like it was getting rather bloated
+	- Most of my time working before was spent trying to embed a project demo into the site, but for some reason the database failed to work
+	- I was also considering adding a timeline element to it, but ultimately I felt it over complicated the project	
