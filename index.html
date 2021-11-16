@@ -16,32 +16,61 @@
     </head>
 
     <body>        
-        <div id="wrapper">
-            <header>
-                <nav id="navbar">
-                    <h1>Christopher Dharma</h1>
-                    <p id="contact_info">Huntley, IL 60142 &#9679; (815) 354-7549 &#9679; cdharma@hawk.iit.edu</p>
+        <header>
+            <nav id="header">
+                <h1>Christopher Dharma</h1>
+                
+                <p class="contact_info">10051 Riverside Dr, Huntley, IL 60142 &#9679; (815) 354-7549 &#9679; cdharma@hawk.iit.edu</p>
 
-                    <ul>
-                        <li><a href="index.html" class="active">Home</a></li>
-                        <li><a href="resume.html">Resume</a></li>
-                    </ul>
-                    <!-- Insert navigational links here -->
-                </nav>
-            </header>
+                <ul class="navbar">
+                    <li class="navbar-item"><a href="index.html" id="active">Home</a></li>
+                    <li class="navbar-item"><a href="resume.html">Resume</a></li>
+                    <li class="navbar-item"><a href="content/Resume 2021-2022 v3.pdf" target=_blank>Resume Download</a></li>
+                    <li class="navbar-item">
+                        <div class="dropdown-wrapper">
+                            <a class="dropdown-button" href="projects.html">Projects</a>
 
-            <section id="introduction">
-                <h2>Introduction</h2>
-                <p> I styled up my resume in html, please click the link above </p>
-
-            </section>
-
-            <section id="contact">
-                <ul>
-                    <p>Connect with me on <a href="https://www.linkedin.com/in/christopher-dharma/" target="_blank">LinkedIn</a>
-                    or <a href="mailto:cdharma@hawk.iit.edu">email me</a>!</p>
+                            <div class="dropdown-content">
+                                <ul class="navbar">
+                                    <a href="projects.html#timings_comparison">Timings Comparison</a>
+                                    <a href="projects.html#parking_r_us">Parking R' Us</a>
+                                    <a href="projects.html#easy_shot">Easy Shot</a>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
-            </section>
-        </div>
+            </nav>
+        </header>
+
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <img id="profile_pic" src="content/Profile Pic.png" alt="Picture of Chris Dharma in a green hoodie facing the camera">
+            <p> Hello! My name is Christopher Dharma, and I'm a 4th year coterminal student studying computer science at the Illinois Institute
+                of Technology!
+            </p>
+
+            <p>
+                Thank you for visiting my website. My resume and past projects are linked above!
+            </p>
+        </section>
+
+        <hr class="line_break">
+
+        <section id="getting_to_know">
+            <h2>Getting to Know Me!</h2>
+
+            <h3>Hobbies</h3>
+            <p>
+                I'm very passionate about playing Dungeons and Dragons and I love playing games with my friends!
+            </p>
+        </section>
+
+        <section id="contact">
+            <ul>
+                <p>Connect with me on <a href="https://www.linkedin.com/in/christopher-dharma/" target="_blank">LinkedIn</a>
+                or <a href="mailto:cdharma@hawk.iit.edu">email me</a>!</p>
+            </ul>
+        </section>
     </body>
 </html>

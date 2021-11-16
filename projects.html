@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- Initial commit for index.html -->
+
+<html xml:lang="en" lang="en">
+    <head>
+        <!-- Meta information -->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="description" content="Christopher Dharma's personal webpage!" />
+
+        <!-- Imports -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Google material icons -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+        <title>Christopher Dharma</title>
+    </head>
+
+    <body>        
+        <header>
+            <nav id="header">
+                <h1>Christopher Dharma</h1>
+                
+                <p class="contact_info">10051 Riverside Dr, Huntley, IL 60142 &#9679; (815) 354-7549 &#9679; cdharma@hawk.iit.edu</p>
+
+                <ul class="navbar">
+                    <li class="navbar-item"><a href="index.html">Home</a></li>
+                    <li class="navbar-item"><a href="resume.html">Resume</a></li>
+                    <li class="navbar-item"><a href="content/Resume 2021-2022 v3.pdf" target=_blank>Resume Download</a></li>
+                    <li class="navbar-item">
+                        <div class="dropdown-wrapper">
+                            <a class="dropdown-button" id="active" href="projects.html">Projects</a>
+
+                            <div class="dropdown-content">
+                                <ul class="navbar">
+                                    <a href="projects.html#timings_comparison">Timings Comparison</a>
+                                    <a href="projects.html#parking_r_us">Parking R' Us</a>
+                                    <a href="projects.html#easy_shot">Easy Shot</a>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="timings_comparison">
+            <h3>Timings Comparison Application</h3>
+            <p>Company: Teradyne</p>
+            <p>When: Summer 2021</p>
+            <p>The timings comparison application is an application created by a team of three interns working in an agile based
+            project during the summer. The application is a GUI based application written in C#, it takes two log files stored in a 
+            CSV file and graphically displays the differences between the log files. </p>
+
+            <p>We scoped and planned the majority of the project ourselves, only receiving a minor set of requirements from our mentors. 
+            The entire project was done using the Agile methodology, our team was responsible with writing user stories and planning
+            the two week sprints the project was broken up into.               
+            </p>
+
+            <p>My primary responsiblities included designing and coding the comparison backend that performed the comparisons between the 
+            log file entries, aiding in the integration of the GUI with said backend and integration testing. 
+            </p>
+        </section>
+
+        <hr class="line_break">
+
+        <section id="parking_r_us">
+            <h3>Parking R' Us</h3>
+            <p>Class: CS 425 - Database Organization</p>
+            <p>When: Spring 2019</p>
+            <p>Collaborated with two partners to design an app to automate the process of finding a parking spot in crowded lots.
+                I was reponsible for designing the backend database integration and worked with PostgreSQL. </p>
+            
+            <p>Our frontend is coded in Java, and uses a locally hosted PostgreSQL server for database management. 
+            </p>
+        </section>
+
+        <hr class="line_break">
+
+        <section id="easy_shot">
+            <h3 ><a href="https://github.com/awaris123/demonhacks-2019">Easy Shot</a></h3>
+            <p>Hackathon: Demonhacks 2019</p>
+            <p>When: Oct 2019</p>
+            <p>Winner of Demonhacks 2019 & JPMorgan Chase’s Hack for Good Competition</p>
+            <p>
+                An Alexa based application that was meant to take in as input a list of symptoms and attempt to diagnose common issues.
+                This application had web integration in order to process the list of symptoms and attempt to make its best guess as to the
+                nature of the user's illness. 
+            </p>
+
+            <p>
+                I was responsible for creating the Alexa Skill front end and integrating it into our web server, where my partners were 
+                developing both the processing and response to the user. I utilized the Alexa Skill Development Kit and worked with its natural 
+                language processor. 
+            </p>
+
+            <div class="grid-container">
+                <img class="img_1" src="content/demonhacks_2019.jfif" alt="Winners of Demonhacks 2019">
+                <img class="img_2" src="content/demonhacks_2019_2.jfif" alt="Winners of Demonhacks 2019 alternative angle">
+                <img class="img_3" src="content/demonhacks_2019_crowd.jfif" alt="Demonhacks 2019 project showcase">
+                
+            </div>
+            
+        </section>
+
+        <section id="contact">
+            <ul>
+                <p>Connect with me on <a href="https://www.linkedin.com/in/christopher-dharma/" target="_blank">LinkedIn</a>
+                or <a href="mailto:cdharma@hawk.iit.edu">email me</a>!</p>
+            </ul>
+        </section>
+    </body>
+</html>
